@@ -1,0 +1,21 @@
+127.0.0.1       localhost
+127.0.1.1       machine-01
+
+135.222.32.111 foo.foo.bar.pl
+135.222.32.112 foo.foo.bar.com
+22.222.32.112 foo.foo.barbar.com
+172.28.0.12               app-2.local
+
+
+172.28.0.12               app-1.local
+172.28.0.12               app-2.local
+
+# The following lines are desirable for IPv6 capable hosts
+::1     ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+
+123.123.123.123  foo.bar.local
+# <<< DOCKER_XHOST_WATCHER
